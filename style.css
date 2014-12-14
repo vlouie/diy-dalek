@@ -1,0 +1,125 @@
+/* CSS Document */
+
+html {
+    scrollbar-face-color: #99b;
+    scrollbar-arrow-color: #fff;
+    scrollbar-highlight-color: #fff;
+    scrollbar-shadow-color: #99c;
+    scrollbar-3dlight-color: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    font: 10px Verdana, Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: justify;
+}
+
+h1{
+border-right:25px solid #000;
+background:#000033;
+margin-bottom:15px;
+font-size:10pt;
+letter-spacing:3px;
+padding:3px;
+color:#fff;
+}
+h1#contactHead{
+position:relative;
+float:left;
+}
+
+img{
+margin-left:3px;
+z-index:99;
+}
+
+.module{
+position: relative;
+border-radius:25px;
+float: left;
+border:30px solid #051B7F;
+background-color: #6699ff;
+}
+.bgselect{
+width:10px;
+height: 10px;
+border: 1px solid #000;
+}
+.daleks{
+z-index: 98;
+}
+#bg_overlay{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 100;
+background-color: rgba(0, 0, 0, 0.7);
+display:none;
+}
+#openContact{
+border-radius: 12px;
+border: 1px solid #ffffff;
+background-color: #333;
+color: #ffffff;
+font: 10px Verdana, Arial, Helvetica, sans-serif;
+}
+#contact{
+position: absolute;
+left: 20%;
+top: 20%;
+width: 400px;
+height: 350px;
+z-index: 110;
+background-color: #ffffff;
+border-radius: 25px;
+display:none;
+padding: 20px;
+}
+#confirmation{
+display:none;
+}
+#yellow{
+background-color: #ffff00;
+}
+#red{
+background-color: #ff0000;
+}
+#green{
+background-color: #008000;
+}
+#blue{
+background-color: #0000ff;
+}
+#white{
+background-color: #ffffff;
+}
+#default{
+background-color: #6699ff;
+}
+#container{
+position: absolute;
+width: 99%;
+height: 80%;
+left:10px;
+}
+#left{
+width: 25%;
+height: 75%;
+}
+#center{
+width: 36%;
+height: 75%;
+}
+#right{
+width: 25%;
+height: 75%;
+}
+#bottom{
+width: 95%;
+height: 25%;
+}
